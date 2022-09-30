@@ -1,0 +1,44 @@
+
+extends base.pug
+block scripts 
+   scripts
+      include ../static/index.js
+block style 
+    style 
+      include ../static/nstyle.css 
+     
+block content       
+    
+
+    section#introsection 
+         div.big welcome to a dance academy 
+         div.small we live for dance 
+    section#missionsection 
+        h2 our mission  
+        div.card 
+           p this is dance academy
+           div.card-box 
+                div.card-img 
+                   img(src="/static/2dance.jpg")
+                div.card-content 
+                    p our dance academy is very good and osm dance 
+        div.card 
+           p students here
+           div.card-box 
+               div.card-img 
+                    img(src="/static/3dance.png")
+               div.card-content 
+                     p  our dance academy student is very well educated and very good dancing performance  
+        div.card 
+           p teachers here 
+           div.card-box 
+               div.card-img 
+                   img(src="/static/4dance.png")
+               div.card-content 
+                   p our teachers is teach method is like a parents teach our student feel comforable   
+    section#sponsorssection 
+      h2 ours sponsors
+       div#sponsors 
+           img(src="/static/amazon.png" alt="amazon pic" class="spimage")
+           img(src="/static/flipkart.png" alt="amazon pic" class="spimage")
+           img(src="/static/insta.png" alt="amazon pic" class="spimage")

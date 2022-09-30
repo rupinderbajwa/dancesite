@@ -1,0 +1,20 @@
+html  
+ head 
+  block scripts 
+   scripts
+      include ../static/index.js
+  block style 
+    style 
+      include ../static/nstyle.css  
+  body  
+   nav#navbar 
+        ul 
+
+            div#logo  
+                img(src="/static/1dance.jpg")
+            li #[a(href='/') home]  
+            li #[a(href='/') about]
+            li #[a(href='/contact') contact]   
+  block content      
+ footer#footer 
+        |copyright  © 2022 ROOPDANCEACADEMY | All right reserved

@@ -1,0 +1,137 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+#logo{
+display:flex;
+color:white;
+align-items:center;
+margin:0px 25px;
+font-size:28px;
+margin-right:45px;
+    
+}
+#logo img{
+height:42px;
+filter:invert(2);
+filter:drop-shadow(1);
+}
+#navbar{
+background:black;
+color:white;
+padding: 12px 13px;
+align-items:center;
+font-size:25px;
+}
+#navbar ul{
+display:flex;
+flex-direction:row;
+
+}
+#navbar li{
+list-style:none;
+}
+#navbar li a{
+text-decoration:none;
+color:white;
+font-size:20px;
+padding:20px 26px;
+}
+#navbar li a:hover{
+color:red;
+font-weight:bold;
+}
+#introsection{
+background:#ff7800;;
+display:flex;
+flex-direction:column;
+padding-bottom:40px;
+height:300px;
+justify-content:center;
+align-items:center;
+background:center/cover no-repeat url("/static/bg.jpg");
+color:white;
+
+}
+#introsection div.big{
+color:blue;
+font-size:50px;
+}
+#introsection div.small{
+color:yellow;
+font-size:40px;
+}
+#missionsection{
+height:300px;
+background:#ff7800;
+margin:auto;
+}
+#missionsection h2{
+font-size:40px;
+text-align:center;
+padding-top:12px;
+color:blue;
+}
+.card{
+display:inline-block;
+border:2px solid black;
+border-radius:10px;
+width:30%;
+margin:23px 20px;
+height:209px;}
+.card p{
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:25px;
+color:black;
+}
+.card-box{
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+}
+.card img{
+height:120px;
+margin:5px 9px;
+padding:0 14px;
+}
+.card-content{
+padding: 0 10px;
+}
+.card-content p{
+font-size:20px;
+color:pink;
+}
+
+#sponsorssection{
+height:300px;
+background:blue;
+color:yellow;
+}
+#sponsorssection h2{
+text-align:center;
+padding-top:12px;
+font-size:40px;
+}
+#sponsors{
+display:flex;
+align-items:center;
+justify-content:center;
+height:191px;
+max-width:1000px;
+}
+.spimage{
+height:80%;
+margin:20px;
+}
+#footer{
+background:black;
+height:100px;
+color:white;
+text-align:center;
+font-size:25px;
+padding-top:20px;
+}
